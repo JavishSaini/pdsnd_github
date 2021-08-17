@@ -191,7 +191,7 @@ def user_stats(df):
     
     
 def display_data(df):
-    """Function to display raw data to user"""
+    """Function to display raw data to user. This function is displaying 5 rows of the sample dataframe."""
     while True:
         disp_data_input = input("Do you wish to see first five row sample of the data? Please input yes or no!\n").lower()
         
