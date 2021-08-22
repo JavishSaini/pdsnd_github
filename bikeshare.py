@@ -192,9 +192,16 @@ def user_stats(df):
     
 def display_data(df):
 <<<<<<< HEAD
+<<<<<<< HEAD
     """Function to display raw data to user. This function is displaying 5 rows of the sample dataframe."""
 =======
     """Function to display raw data to user. it will display first five rows of the dataframe for each city."""
+>>>>>>> refactoring
+=======
+    """Function to display raw data to user. it will display first five rows of the dataframe for each city."""
+=======
+    """Function to display raw data to user. This function is displaying 5 rows of the sample dataframe."""
+>>>>>>> documentation
 >>>>>>> refactoring
     while True:
         disp_data_input = input("Do you wish to see first five row sample of the data? Please input yes or no!\n").lower()
